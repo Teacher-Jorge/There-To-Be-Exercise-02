@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>There To Be</title>
+    
+</head>
+<body>
+
+    <audio id="wrong" src="assets/undo-short.wav"></audio>
+    <audio id="right" src="assets/robot.wav"></audio>
+    <audio id="click" src="assets/click.wav"></audio>
+
+    <div class="container">
+        <item class="heading">Choose the correct alternative:</item>
+        <item class="image"><img class= "check" id="check1" src="assets/electicity.jpeg" width="350"></item>
+        <item class="sentence">There<span id="answer">___</span>no</item>
+        <item class="sentence">electricity to</item>
+        <item class="sentence">charge the car.</item>
+
+        <item class="buttons">
+            <button class="btn" id="btnIs">is</button>
+            <button class="btn" id="btnAre">are</button>
+            <button class="btn" id="btnArent">aren't</button>
+        </item>
+
+        <item class="translate">
+            <button id="btnTranslate">Translate</button>
+        </item>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
